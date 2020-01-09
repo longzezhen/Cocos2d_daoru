@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3AE7EEA23C71D8F001F2BC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7EE923C71D8F001F2BC4 /* AppDelegate.m */; };
+		A3AE7EED23C71D8F001F2BC4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7EEC23C71D8F001F2BC4 /* SceneDelegate.m */; };
+		A3AE7EF023C71D8F001F2BC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7EEF23C71D8F001F2BC4 /* ViewController.m */; };
+		A3AE7EF323C71D8F001F2BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE7EF123C71D8F001F2BC4 /* Main.storyboard */; };
+		A3AE7EF623C71D8F001F2BC4 /* YouxiCeshi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7EF423C71D8F001F2BC4 /* YouxiCeshi.xcdatamodeld */; };
+		A3AE7EF823C71D91001F2BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AE7EF723C71D91001F2BC4 /* Assets.xcassets */; };
+		A3AE7EFB23C71D91001F2BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE7EF923C71D91001F2BC4 /* LaunchScreen.storyboard */; };
+		A3AE7EFE23C71D91001F2BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7EFD23C71D91001F2BC4 /* main.m */; };
+		A3AE7F0823C71D91001F2BC4 /* YouxiCeshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7F0723C71D91001F2BC4 /* YouxiCeshiTests.m */; };
+		A3AE7F1323C71D91001F2BC4 /* YouxiCeshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE7F1223C71D91001F2BC4 /* YouxiCeshiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3AE7F0423C71D91001F2BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AE7EDD23C71D8F001F2BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE7EE423C71D8F001F2BC4;
+			remoteInfo = YouxiCeshi;
+		};
+		A3AE7F0F23C71D91001F2BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AE7EDD23C71D8F001F2BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE7EE423C71D8F001F2BC4;
+			remoteInfo = YouxiCeshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3AE7EE523C71D8F001F2BC4 /* YouxiCeshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouxiCeshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE7EE823C71D8F001F2BC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3AE7EE923C71D8F001F2BC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3AE7EEB23C71D8F001F2BC4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A3AE7EEC23C71D8F001F2BC4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A3AE7EEE23C71D8F001F2BC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3AE7EEF23C71D8F001F2BC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3AE7EF223C71D8F001F2BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AE7EF523C71D8F001F2BC4 /* YouxiCeshi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YouxiCeshi.xcdatamodel; sourceTree = "<group>"; };
+		A3AE7EF723C71D91001F2BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AE7EFA23C71D91001F2BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3AE7EFC23C71D91001F2BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE7EFD23C71D91001F2BC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3AE7F0323C71D91001F2BC4 /* YouxiCeshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouxiCeshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE7F0723C71D91001F2BC4 /* YouxiCeshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouxiCeshiTests.m; sourceTree = "<group>"; };
+		A3AE7F0923C71D91001F2BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE7F0E23C71D91001F2BC4 /* YouxiCeshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouxiCeshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE7F1223C71D91001F2BC4 /* YouxiCeshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouxiCeshiUITests.m; sourceTree = "<group>"; };
+		A3AE7F1423C71D91001F2BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AE7EE223C71D8F001F2BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7F0023C71D91001F2BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7F0B23C71D91001F2BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AE7EDC23C71D8F001F2BC4 = {
+			isa = PBXGroup;
+			children = (
+				A3AE7EE723C71D8F001F2BC4 /* YouxiCeshi */,
+				A3AE7F0623C71D91001F2BC4 /* YouxiCeshiTests */,
+				A3AE7F1123C71D91001F2BC4 /* YouxiCeshiUITests */,
+				A3AE7EE623C71D8F001F2BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AE7EE623C71D8F001F2BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE7EE523C71D8F001F2BC4 /* YouxiCeshi.app */,
+				A3AE7F0323C71D91001F2BC4 /* YouxiCeshiTests.xctest */,
+				A3AE7F0E23C71D91001F2BC4 /* YouxiCeshiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AE7EE723C71D8F001F2BC4 /* YouxiCeshi */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE7EE823C71D8F001F2BC4 /* AppDelegate.h */,
+				A3AE7EE923C71D8F001F2BC4 /* AppDelegate.m */,
+				A3AE7EEB23C71D8F001F2BC4 /* SceneDelegate.h */,
+				A3AE7EEC23C71D8F001F2BC4 /* SceneDelegate.m */,
+				A3AE7EEE23C71D8F001F2BC4 /* ViewController.h */,
+				A3AE7EEF23C71D8F001F2BC4 /* ViewController.m */,
+				A3AE7EF123C71D8F001F2BC4 /* Main.storyboard */,
+				A3AE7EF723C71D91001F2BC4 /* Assets.xcassets */,
+				A3AE7EF923C71D91001F2BC4 /* LaunchScreen.storyboard */,
+				A3AE7EFC23C71D91001F2BC4 /* Info.plist */,
+				A3AE7EFD23C71D91001F2BC4 /* main.m */,
+				A3AE7EF423C71D8F001F2BC4 /* YouxiCeshi.xcdatamodeld */,
+			);
+			path = YouxiCeshi;
+			sourceTree = "<group>";
+		};
+		A3AE7F0623C71D91001F2BC4 /* YouxiCeshiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE7F0723C71D91001F2BC4 /* YouxiCeshiTests.m */,
+				A3AE7F0923C71D91001F2BC4 /* Info.plist */,
+			);
+			path = YouxiCeshiTests;
+			sourceTree = "<group>";
+		};
+		A3AE7F1123C71D91001F2BC4 /* YouxiCeshiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE7F1223C71D91001F2BC4 /* YouxiCeshiUITests.m */,
+				A3AE7F1423C71D91001F2BC4 /* Info.plist */,
+			);
+			path = YouxiCeshiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AE7EE423C71D8F001F2BC4 /* YouxiCeshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE7F1723C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshi" */;
+			buildPhases = (
+				A3AE7EE123C71D8F001F2BC4 /* Sources */,
+				A3AE7EE223C71D8F001F2BC4 /* Frameworks */,
+				A3AE7EE323C71D8F001F2BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouxiCeshi;
+			productName = YouxiCeshi;
+			productReference = A3AE7EE523C71D8F001F2BC4 /* YouxiCeshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3AE7F0223C71D91001F2BC4 /* YouxiCeshiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE7F1A23C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshiTests" */;
+			buildPhases = (
+				A3AE7EFF23C71D91001F2BC4 /* Sources */,
+				A3AE7F0023C71D91001F2BC4 /* Frameworks */,
+				A3AE7F0123C71D91001F2BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AE7F0523C71D91001F2BC4 /* PBXTargetDependency */,
+			);
+			name = YouxiCeshiTests;
+			productName = YouxiCeshiTests;
+			productReference = A3AE7F0323C71D91001F2BC4 /* YouxiCeshiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3AE7F0D23C71D91001F2BC4 /* YouxiCeshiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE7F1D23C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshiUITests" */;
+			buildPhases = (
+				A3AE7F0A23C71D91001F2BC4 /* Sources */,
+				A3AE7F0B23C71D91001F2BC4 /* Frameworks */,
+				A3AE7F0C23C71D91001F2BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AE7F1023C71D91001F2BC4 /* PBXTargetDependency */,
+			);
+			name = YouxiCeshiUITests;
+			productName = YouxiCeshiUITests;
+			productReference = A3AE7F0E23C71D91001F2BC4 /* YouxiCeshiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AE7EDD23C71D8F001F2BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = cons;
+				TargetAttributes = {
+					A3AE7EE423C71D8F001F2BC4 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					A3AE7F0223C71D91001F2BC4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A3AE7EE423C71D8F001F2BC4;
+					};
+					A3AE7F0D23C71D91001F2BC4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A3AE7EE423C71D8F001F2BC4;
+					};
+				};
+			};
+			buildConfigurationList = A3AE7EE023C71D8F001F2BC4 /* Build configuration list for PBXProject "YouxiCeshi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AE7EDC23C71D8F001F2BC4;
+			productRefGroup = A3AE7EE623C71D8F001F2BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AE7EE423C71D8F001F2BC4 /* YouxiCeshi */,
+				A3AE7F0223C71D91001F2BC4 /* YouxiCeshiTests */,
+				A3AE7F0D23C71D91001F2BC4 /* YouxiCeshiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AE7EE323C71D8F001F2BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE7EFB23C71D91001F2BC4 /* LaunchScreen.storyboard in Resources */,
+				A3AE7EF823C71D91001F2BC4 /* Assets.xcassets in Resources */,
+				A3AE7EF323C71D8F001F2BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7F0123C71D91001F2BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7F0C23C71D91001F2BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AE7EE123C71D8F001F2BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE7EFE23C71D91001F2BC4 /* main.m in Sources */,
+				A3AE7EF023C71D8F001F2BC4 /* ViewController.m in Sources */,
+				A3AE7EF623C71D8F001F2BC4 /* YouxiCeshi.xcdatamodeld in Sources */,
+				A3AE7EEA23C71D8F001F2BC4 /* AppDelegate.m in Sources */,
+				A3AE7EED23C71D8F001F2BC4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7EFF23C71D91001F2BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE7F0823C71D91001F2BC4 /* YouxiCeshiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE7F0A23C71D91001F2BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE7F1323C71D91001F2BC4 /* YouxiCeshiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3AE7F0523C71D91001F2BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AE7EE423C71D8F001F2BC4 /* YouxiCeshi */;
+			targetProxy = A3AE7F0423C71D91001F2BC4 /* PBXContainerItemProxy */;
+		};
+		A3AE7F1023C71D91001F2BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AE7EE423C71D8F001F2BC4 /* YouxiCeshi */;
+			targetProxy = A3AE7F0F23C71D91001F2BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3AE7EF123C71D8F001F2BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE7EF223C71D8F001F2BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AE7EF923C71D91001F2BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE7EFA23C71D91001F2BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AE7F1523C71D91001F2BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3AE7F1623C71D91001F2BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AE7F1823C71D91001F2BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3AE7F1923C71D91001F2BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3AE7F1B23C71D91001F2BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouxiCeshi.app/YouxiCeshi";
+			};
+			name = Debug;
+		};
+		A3AE7F1C23C71D91001F2BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouxiCeshi.app/YouxiCeshi";
+			};
+			name = Release;
+		};
+		A3AE7F1E23C71D91001F2BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YouxiCeshi;
+			};
+			name = Debug;
+		};
+		A3AE7F1F23C71D91001F2BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouxiCeshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tellation.YouxiCeshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YouxiCeshi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AE7EE023C71D8F001F2BC4 /* Build configuration list for PBXProject "YouxiCeshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE7F1523C71D91001F2BC4 /* Debug */,
+				A3AE7F1623C71D91001F2BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE7F1723C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE7F1823C71D91001F2BC4 /* Debug */,
+				A3AE7F1923C71D91001F2BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE7F1A23C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE7F1B23C71D91001F2BC4 /* Debug */,
+				A3AE7F1C23C71D91001F2BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE7F1D23C71D91001F2BC4 /* Build configuration list for PBXNativeTarget "YouxiCeshiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE7F1E23C71D91001F2BC4 /* Debug */,
+				A3AE7F1F23C71D91001F2BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3AE7EF423C71D8F001F2BC4 /* YouxiCeshi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3AE7EF523C71D8F001F2BC4 /* YouxiCeshi.xcdatamodel */,
+			);
+			currentVersion = A3AE7EF523C71D8F001F2BC4 /* YouxiCeshi.xcdatamodel */;
+			path = YouxiCeshi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3AE7EDD23C71D8F001F2BC4 /* Project object */;
+}
